@@ -1,0 +1,29 @@
+{
+	"name": "chilly-test",
+	
+	"tree": {
+		"$className": "DataModel",
+
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+
+			"Packages": {
+				"$path": "DevPackages",
+				"$ignoreUnknownInstances": true,
+
+				"Chilly": {
+					"$path": "default.project.json",
+					"$ignoreUnknownInstances": true
+				}
+			}
+		},
+
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+
+			"Tests": {
+				"$path": "tests"
+			}
+		}
+	}
+}
